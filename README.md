@@ -21,6 +21,7 @@ In this paper, we introduce unMORE, a novel two-stage pipeline designed to ident
 Example conda environment setup:
 ```bash
 conda create --name unMORE python=3.8 -y
+conda activate unMORE
 pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
 
 ### install Detectron2 under your working directory
@@ -239,7 +240,7 @@ cd COCO*
 python utils/generate_mask_for_extra_coco_labels.py
 ```
 Note that SAM models can be installed and downloaded according to the instructions in its original [repo](https://www.robots.ox.ac.uk/~vgg/software/via/via_demo.html).
-The annotations for additional labeled objects (bounding box + mask) can be downloaded from [COCO*_extra](https://1drv.ms/u/c/63dc39902c38c526/EQ2D91J5uoJAsKcrSnNXMlABdkvYKkObEmnKcEadP06VFQ?e=YKwvB1)
+The annotations for additional labeled objects (bounding box + mask) can be downloaded from [COCO*_extra](https://1drv.ms/u/c/63dc39902c38c526/EQ2D91J5uoJAsKcrSnNXMlABdkvYKkObEmnKcEadP06VFQ?e=YKwvB1).
 
 - Step 3: Merge the newly annotation objects with original objects in COCO val2017 set:
 ```

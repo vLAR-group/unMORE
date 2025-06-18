@@ -48,8 +48,8 @@ python merge_coco_and_imagenet.py \
     --imagenet_annotations_training_format_path {path imagenet_train_votecut_kmax_3_tuam_0.2.json}
 
 ## 6. Train Class Agnostic Detector
-CUDA_VISIBLE_DEVICES=1,2 python cad/train_net.py \
-    --num-gpus 2 \
+CUDA_VISIBLE_DEVICES=1,2,3,4 python cad/train_net.py \
+    --num-gpus 4 \
     --config-file unMORE/cad/model_zoo/configs/unMORE-IN+COCO/cascade_mask_rcnn_R_50_FPN.yaml
 
 ## 7. Evaluate unMORE model
