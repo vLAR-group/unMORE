@@ -2,7 +2,7 @@
 [![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
 [![Twitter Follow](https://img.shields.io/twitter/follow/vLAR_Group?style=social)](https://twitter.com/vLAR_Group)
 
-# unMORE: Unsupervised Multi-Object Segmentation via Center-Boundary Reasoning (ICML2025)
+# unMORE: Unsupervised Multi-Object Segmentation via Center-Boundary Reasoning (ICML 2025)
 [Yafei Yang](https://yangyafei1998.github.io/), [Zihui Zhang](https://scholar.google.com.hk/citations?hl=en&user=jiwazT8AAAAJ&view_op=list_works&sortby=pubdate), [Bo Yang](https://yang7879.github.io/)
 
 ## Overview
